@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaedac;
+}
+
+h1 {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+}
+
+#add-btn {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 16px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #aff5d7;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#add-btn:hover {
+    background-color: #afd1e2;
+}
+
+.buy-delete {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: #6b7280;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 1;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 600px;
+    background: #ffffff;
+    border: 1px solid #afd1e2;
+    border-radius: 14px;
+    box-shadow: 6px 6px 10px rgb(175, 209, 226);
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #aff5d7;
+}
+
+.buy-text {
+    cursor: pointer;
+}
+
+.bought .buy-text {
+    text-decoration: line-through;
+    color: #8C8C8C;
+}
